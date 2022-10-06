@@ -23,7 +23,9 @@ function App() {
           path: "/shop",
           element: <Shop></Shop>,
         },
-        {
+        { loader: async () => {
+          return fetch('https://jsonplaceholder.typicode.com/users')
+        },
           path: "/about",
           element: <About></About>,
         },
