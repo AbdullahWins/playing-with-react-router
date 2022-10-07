@@ -4,4 +4,20 @@
   border-radius: 15px;
   margin: 10px;
   padding: 10px;
+  position: relative;
+}
+
+#full-post-btn {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 4px 0px;
+  border: none;
+  border-radius: 0px 0px 14px 14px;
+  margin-bottom: -1px;
+}
+
+#full-post-btn:hover {
+  background-color: brown;
 }
